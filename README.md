@@ -1,9 +1,13 @@
 # PHP SDK Moysklad API 1.2
+
+Форк https://packagist.org/packages/cdekmarketteam/moysklad.
+Применены фиксы.
+
 Данная библиотека предназначена для удобной работы с API Remap версии 1.2 МоегоСклада. 
 Она содержит набор функций, позволяющий совершать базовые операции над сущностями (создание, чтение, изменение, удаление).
 
 ## Установка
-- `composer require cdekmarketteam/moysklad`
+- `composer require uplinestudio/moysklad`
 - `composer dump-autoload`
 
 ## Пример работы

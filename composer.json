@@ -1,7 +1,6 @@
 {
-  "name": "cdekmarketteam/moysklad",
+  "name": "uplinestudio/moysklad",
   "description": "PHP SDK Moysklad API 1.2",
-  "homepage": "https://github.com/cdekmarketteam/moysklad",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -36,6 +35,11 @@
   "autoload-dev": {
     "psr-4": {
       "MoySklad\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yogarine/doctrine-annotation-autoload": true
     }
   }
 }
