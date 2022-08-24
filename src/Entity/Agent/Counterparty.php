@@ -153,4 +153,16 @@ class Counterparty extends MetaEntity
      * @Type("MoySklad\Entity\ListEntity")
      */
     public $notes;
+    
+    /**
+     * @Type("string")
+     * @Generator()
+     */
+    public $phone;
+    
+    /**
+     * @Type("string")
+     * @Generator()
+     */
+    public $email;
 }
